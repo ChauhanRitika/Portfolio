@@ -134,6 +134,14 @@ html {
   width: 79%;
   animation: sass 4s;
 }
+.express::before {
+  width: 70%;
+  animation: express 4s;
+}
+.react::before {
+  width: 73%;
+  animation: react 4s;
+}
 
 @keyframes c {
   0% {
@@ -251,6 +259,25 @@ html {
 
   100% {
     width: 80%;
+  }
+}
+
+@keyframes express {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 70%;
+  }
+}
+@keyframes react {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 75%;
   }
 }
 
